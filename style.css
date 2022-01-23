@@ -25,7 +25,7 @@ header h1{
 .calculator{
     height: 500px;
     width: 400px;
-    /* max-width: 80%; */
+    max-width: 90%;
     padding: 15px;
     /* background-color: darkblue; */
     background-color: #2E279D;
@@ -65,7 +65,7 @@ button:active{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 20px;
     background-color: rgba(46, 39, 157,0.8);
