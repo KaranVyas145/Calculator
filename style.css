@@ -31,7 +31,6 @@ header h1{
     width: 400px;
     max-width: 90%;
     padding: 15px;
-    /* background-color: darkblue; */
     background-color: #2E279D;
     display: grid;
     grid-template-columns: repeat(4,1fr);

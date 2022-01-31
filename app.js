@@ -4,14 +4,6 @@ let solve = document.querySelector("#solve");
 let answer = document.querySelector(".answer");
 let clear = document.querySelector("#clear");
 let backspace = document.querySelector("#B");
-// solve.addEventListener("click", () => {
-//   try {
-//     answer.innerHTML = eval(calc);
-//     calc = "";
-//   } catch (error) {
-//     answer.innerHTML="Undefined"
-//   }
-// });
 
 // Mouse Click events
 solve.addEventListener("click", solveit);
@@ -24,25 +16,9 @@ value.forEach((button) => {
   });
 });
 
-// backspace.addEventListener('click',()=>{
-//  calc= calc.substring(0,calc.length-1);
-//  answer.innerHTML = calc;
-// })
-
-// clear.addEventListener('click',()=>{
-//     calc='';
-//     answer.innerHTML=calc;
-// })
 
 // Keyboard Click Events
 document.addEventListener("keydown", (e) => {
-  // console.log(e);..
-  // if(parseInt(e.key)!=NaN){
-  //   calc+=e.key;
-  //   answer.innerHTML=calc;
-  // }
-  // let reg=/[48-50]/;
-  // console.log(isFinite(e.key));
   if (isFinite(e.key)) {
     calc += e.key;
     answer.innerHTML = calc;
